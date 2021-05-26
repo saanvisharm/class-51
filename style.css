@@ -1,0 +1,37 @@
+*{
+    background-color:darkkhaki;
+}
+
+h1{
+    color:rgb(10, 126, 126);
+}
+.heading{
+    background-color:rgb(176, 233, 85);
+    display:flex;
+    justify-content: space-between;
+}
+.menu{
+    border-style: dotted;
+    border-color:lightsalmon;
+    border-width:thick;
+    font-size: medium;
+    font-style: italic;
+    display:flex;
+    justify-content: flex-end;
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer{
+    border-style: dashed;
+    border-color:lightblue;
+    display:flex;
+    justify-content: flex-end;
+    
+}
+p,h2{
+    text-align: center;
+    text-decoration:underline;
+}
